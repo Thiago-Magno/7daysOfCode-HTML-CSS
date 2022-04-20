@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Inter', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 li{
     list-style: none;
 }
-a{
+.link{
     color: #667085;
     text-decoration: none;
 }
@@ -27,6 +29,8 @@ header{
     height: 10vh;
     justify-content: space-around;
     align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
     
 }
 /* setting center od the nav bar */
@@ -35,19 +39,40 @@ header{
     width: 50vw;
     flex-direction: row;
     justify-content:space-around ;
-    padding: 2rem 10rem 2rem 6vw;
+    padding: 2rem 14.5rem 2rem 6vw;
 }
 /* setting right of the nav bar */
 .menu2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 20vw;
+    justify-content: space-evenly;
+    width: 25vw;
     padding-right: 5vw;
 }
 /* setting left of the nav bar */
 .logo{
-    width: 10vw;
+    width: 13vw;
     padding-left: 5vw;
+
 }
 
+#sign-in {
+    height: 5vh;
+    width: 8vw;
+    border-radius: 0.2rem;
+
+    padding: 0.4rem 0.2rem 0.2rem 1rem;
+}
+#sign-up {
+    height: 5.5vh;
+    width: 8vw;
+    border-radius: 0.35rem;
+    background-color: #8E2424;
+    margin-left: 1rem;
+    padding: 0.5rem 0.2rem 0.2rem 1rem;
+    font-size: 0.9rem;
+}
+#sign-up > a{
+    color: aliceblue;
+    text-decoration: none;
+}
