@@ -1,4 +1,5 @@
 :root{
+    --title-color:#101828;
     --text-color: #667085;
     --main-color: #8E2424;
 }
@@ -15,6 +16,7 @@ li{
     list-style: none;
 }
 .link{
+    margin-left: 2rem;
     color: var(--text-color);
     text-decoration: none;
 }
@@ -23,9 +25,7 @@ body{
     height: 100vh;
     width: 100vw;
 }
-header{
-    align-content: center;
-}
+
 #conteiner{
     display: flex;
     justify-content: space-around;
@@ -36,14 +36,13 @@ header{
 .links{
     display: flex;
     width: 50vw;
-    flex-direction: row;
-    justify-content:space-around ;
-    padding: 2rem 14.5rem 2rem 6vw;
+    justify-content:flex-start ;
+    margin:  0 0 0 7vw;
 }
+
 /* setting right of the nav bar */
 .buttons{
-    display: flex;
-    flex-direction: row;
+    
     justify-content: space-evenly;
     width: 25vw;
     padding-right: 5vw;
@@ -73,4 +72,27 @@ button {
 #sign-up {
     color: white;
     background-color: var(--main-color);
+}
+
+/* cabeçalho */
+#cabecalho{
+    text-align: center;
+    padding-top: 8vw;
+    height: 50vh;
+    width: 100vw;
+}
+.header-items{
+    margin-top: 1.5rem;
+}
+h1{
+    color: #101828;
+    font-weight: 600;
+}
+#sobre {
+    color: #8E2424;
+    font-weight: 600;
+}
+p{
+    color: #667085;
+    font-weight: 400;
 }
