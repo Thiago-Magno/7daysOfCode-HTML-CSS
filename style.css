@@ -146,18 +146,17 @@ h1 {
 }
 
 /*  vagas seção */
-.vagas{
+.recrutiment{
   display: flex;
   flex-direction: column;
   margin: 8rem 0 0 0 ;
-  height: 90vh;
+  height: 80vh;
   width: 100vw;
   align-items: center;
-  justify-content: center;
-
+  
 }
-.vagas > img{
-  height: 60vh;
+.recrutiment > img{
+  height: 80vh;
   width: 85vw;
   margin: 2.3rem 0 2rem 0;
 }
@@ -172,14 +171,49 @@ h1 {
   font-weight: 500;
   font-size: 0.9rem;
 }
-.vagas > h3{
+.recrutiment > h3{
   font-weight: 600;
   font-size: 2rem;
 }
-.vagas > p{
+.recrutiment > p{
   font-weight: 400;
   font-size: 1.2rem;
 }
 .elementVagas{
   margin: 0.8rem;
+}
+
+/* Informações das vagas */
+.design{
+  height: 50vh;
+  width: 47rem;
+}
+.design h3{
+  font-weight: 500;
+  margin: 0 16px;
+}
+.dev{
+  height: 85vh;
+  width: 47rem; 
+  margin: 4rem 0 0 0;
+}
+.dev h3{
+  margin: 0 16px;
+  font-weight: 500;
+}
+.vaga{
+  height: 8.5rem;
+  width: 45rem;
+  margin: 2rem auto;
+  border: #66708530 1px solid;
+  border-radius: 12px;
+  padding: 1.5rem 0 0 1.5rem ;
+  cursor: pointer;
+}
+.infoVaga{
+  display: flex;
+  
+}
+.infoVaga p{
+  margin: 2.5rem 1.5rem 0 0 ;
 }
